@@ -1,0 +1,83 @@
+.slick-slide {
+  text-align: center;
+  background-color: #222;
+  color: #fff;
+  min-height: 200px;
+  position: relative;
+
+  .content-wrapper {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+
+  h2 {
+    color: #DDBB00;
+    font-weight: normal;
+    margin-bottom: 0;
+  }
+
+  h3 {
+    position: relative;
+    display: inline-block;
+
+    &.tennis,
+    &.basketball,
+    &.football,
+    &.default {
+      &:before {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        left: -20px;
+        top: 2px;
+        width: 16px;
+        height: 16px;
+      }
+    }
+
+    &.tennis {
+      &:before {
+        background: url('../../images/icons/tennis.png');
+      }
+    }
+    
+    &.basketball {
+      &:before {
+        background: url('../../images/icons/basketball.png');
+      }
+    }
+
+    &.football {
+      &:before {
+        background: url('../../images/icons/football.png');
+      }
+    }
+
+    &.default {
+      &:before {
+        background: url('../../images/icons/default.png');
+      }
+    }
+  }
+
+  .date {
+    color: #999;
+    margin-top: 0;
+  }
+
+  .btn-green {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    background: #3AAA35;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 6px 15px;
+    border-radius: 3px;
+    margin: 0 0 20px;
+  }
+} 

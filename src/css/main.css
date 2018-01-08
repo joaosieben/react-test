@@ -84,3 +84,7 @@ footer .inner {
 footer .inner p {
 	padding: 16px 8px;
 }
+
+#live-matches {
+  max-width: 70%;
+}
