@@ -1,18 +1,9 @@
 import React from 'react';
 import Slider from 'react-slick';
-import Slide from '../Slide/Slide.jsx';
 import s from './Carousel.scss'; 
 
 export default class Carousel extends React.Component {
     
-  mountSlider() {
-    return (
-      <div>
-        { this.getSlides() }
-      </div>
-   );
-  }
-
   hasCacheExpired() {
     let response;
 
@@ -150,7 +141,7 @@ export default class Carousel extends React.Component {
   render() {
     return (
       <div>
-        { this.mountSlider() }
+        { this.getSlides() }
       </div>
     );
   }
