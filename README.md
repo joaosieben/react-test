@@ -1,4 +1,4 @@
-# Kindred Front-end Test | João A. P. Sieben.
+# React test landing page.
 
 This Landing page was developed as a test only. It uses:
  * [Yarn](https://yarnpkg.com/pt-BR/), as package manager (but it works with [NPM](https://www.npmjs.com/) too);
